@@ -17,8 +17,25 @@ public class Main {
         System.out.println(car2.toString());
 
          */
-        System.out.println("test");
 
+
+        //String task
+        String s = "Hello";
+        meth(s);
+        System.out.println(s);
+
+        System.out.println(meth2(s));
 
     }
+
+    public static void meth(String x) {
+        x = x + " World!";
+    }
+
+    public static String meth2(String x) {
+        x = x + " World!";
+        return x;
+    }
+
+
 }
