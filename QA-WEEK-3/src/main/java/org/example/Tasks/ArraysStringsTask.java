@@ -30,5 +30,19 @@ public class ArraysStringsTask {
             }
         }
 
+        StringBuilder stringBuilder = new StringBuilder();
+
+        String one = "Hello ";
+        String two = "World!";
+        String three = " Goodbye";
+        String four = "World!";
+
+        stringBuilder.append(one);
+        stringBuilder.append(two);
+        stringBuilder.append(three);
+        stringBuilder.append(four);
+
+        System.out.println(stringBuilder);
+
     }
 }
