@@ -25,8 +25,27 @@ public class ArrayRunner {
         // for loop and enhanced for loop/foreach loop
 
         //For Loop
-        for(int i = 0; i < numArray.length; i++){
-            int j = numArray[i];
+        for (int i = 0; i < numArray.length; i++){
+            if (numArray[i] % 3 == 0) {
+                System.out.println(numArray[i] + " is a multiple of 3");
+            } else {
+                System.out.println(numArray[i]);
+            }
+        }
+
+
+        //For Each Loop
+        for (int num : numArray) {
+            System.out.println(num);
+        }
+        System.out.println("...");
+
+        //multi-array looping
+        for (int i = 0 ; i < numMultiArray.length ; i++) {
+            for (int j = 0; j < numMultiArray[i].length ; j++){
+                System.out.println(numMultiArray[i][j]);
+            }
+            System.out.println("X array finished");
         }
     }
 }
