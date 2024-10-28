@@ -1,4 +1,4 @@
-package org.example.Vehicles;
+package org.example.Monday.Vehicles;
 
 public class Car {
     public Car(String regNo, String make, String fuelType, int yearOfSale) {

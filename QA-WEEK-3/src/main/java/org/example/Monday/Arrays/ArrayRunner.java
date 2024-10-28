@@ -1,4 +1,4 @@
-package org.example.Arrays;
+package org.example.Monday.Arrays;
 
 public class ArrayRunner {
     public static void main(String[] args) {

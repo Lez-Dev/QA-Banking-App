@@ -1,6 +1,6 @@
-package org.example.Tasks;
+package org.example.Monday.Tasks;
 
-import org.example.Vehicles.Car;
+import org.example.Monday.Vehicles.Car;
 
 public class ArraysStringsTask {
     public static void main(String[] args) {
