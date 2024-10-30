@@ -23,7 +23,7 @@ public class CalculatorMultiplyTest {
         assertEquals(expected, actual);
     }
 
-    static Stream<Arguments> provideNumbersForDivision() {
+    static Stream<Arguments> provideNumbersForMultiplication() {
         return Stream.of(
                 Arguments.of(5, 5, 25),
                 Arguments.of(10, 5, 50),
@@ -34,7 +34,7 @@ public class CalculatorMultiplyTest {
     }
 
     @ParameterizedTest
-    @MethodSource("provideNumbersForDivision")
+    @MethodSource("provideNumbersForMultiplication")
     public void testAdd(int a, int b, int expected) {
         Calculator calculator = new Calculator();
         int actual = calculator.multiply(a, b);
