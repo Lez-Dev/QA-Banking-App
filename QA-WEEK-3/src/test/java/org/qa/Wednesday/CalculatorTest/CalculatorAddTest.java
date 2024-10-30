@@ -1,4 +1,4 @@
-package org.qa.Wednesday;
+package org.qa.Wednesday.CalculatorTest;
 
 import org.junit.jupiter.api.Test;
 
@@ -6,6 +6,8 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;
+import org.qa.Wednesday.Calculator;
+
 import java.util.stream.Stream;
 
 public class CalculatorAddTest {
