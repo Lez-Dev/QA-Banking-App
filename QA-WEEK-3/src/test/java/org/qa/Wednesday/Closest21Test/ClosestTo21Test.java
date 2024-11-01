@@ -3,7 +3,6 @@ package org.qa.Wednesday.Closest21Test;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;
-import org.qa.Wednesday.Calculator;
 import org.qa.Wednesday.Closest21;
 
 import java.util.stream.Stream;
